@@ -6,7 +6,7 @@ const Blogs = () => {
     <Layout>
       <Head>
         <title>Running Blogs</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="../public/favicon.ico" />
       </Head>
       <div>
         <h2>Blogs page is under construction...</h2>
