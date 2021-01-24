@@ -38,6 +38,7 @@ html, body {
     justify-content: center;
     align-items: center;
     font-size: 0.75rem;
+    background-color:rgb(230, 217, 217);
   }
 
   footer img {
@@ -149,8 +150,9 @@ html, body {
       display: flex;
       justify-content: space-around;
       align-items: center;
-      border-bottom: 1px solid #e0dbdbf1;
+      border-bottom: 1px solid rgb(230, 217, 217);
       font-size: 0.75rem;
+      background-color: rgb(230, 217, 217);
   }
 
   @media (max-width: 600px) {
