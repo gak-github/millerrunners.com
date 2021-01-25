@@ -6,7 +6,7 @@ const Header = () => {
         <nav className='header'>
             <div className='logo'>
                 <Link href='/'>
-                    <a><Image src='/vercel.svg' width={`50`} height={`10em`}/></a>
+                    <a><Image src='/mrunners.svg' width={`50`} height={`10em`}/></a>
                 </Link>
             </div>
             <Link href='/'>
@@ -16,11 +16,11 @@ const Header = () => {
                 <a>About</a>
             </Link>
                 <Link href='/blogs'>
-                <a>Blogs</a>
+                <a>Blog</a>
             </Link>
             <Link href='/contact'>
                 <a>Contact</a>
-            </Link>     
+            </Link>    
         </nav>
         
     );

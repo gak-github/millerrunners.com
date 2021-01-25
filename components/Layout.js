@@ -1,15 +1,20 @@
-import Header from './Header'
+import Head from 'next/head';
+import Header from './Header';
+import Footer from './Footer';
 
 const Layout = ({children}) => {
     return (
         <>
+            <Head>
+                <title>Miller Runners</title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+            
             <Header />
-            <div className="container">
-                {children}
-            </div>
-            <footer>
-                <p>Copyright &copy;2021 by Miller Runners. All rights reserved.</p>
-            </footer>
+            
+            {children}
+            
+            <Footer />
         </>
     );
 };
