@@ -23,7 +23,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../public/woods.jpg');
+    background-image: url('../public/run-background.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
